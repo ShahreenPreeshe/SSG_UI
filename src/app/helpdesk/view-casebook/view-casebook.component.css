@@ -1,0 +1,19 @@
+.tabcol{
+    font-size: 13px;
+}
+.side{
+    font-size: 25px;
+    padding-left: 15px;
+}
+.downloadbtn{
+    background-color: #fff;
+    color: #1B3764;
+    font-size: 15px;
+    margin-left: 25px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.12);
+}
+.downloadbtn:hover{
+    background-color: #1B3764;
+    color: #fff;
+}

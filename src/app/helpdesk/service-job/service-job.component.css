@@ -1,0 +1,12 @@
+.tabcol{
+    font-size: 13px;
+}
+.upbtn{
+    font-size: 12px;
+    background: #1B3764;
+    border: 1px solid #D0D0D0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 32px;
+}

@@ -1,0 +1,609 @@
+<div class="container-fluid">
+    <!-- first head start -->
+   <div class="mt-3">
+    <nav class="helpnav"><span class="fontsize3">Helpdesk</span><img src="/assets/greater-than.png" class="greaterimg" alt="colon"><span class="fontsize2">Search Service
+        Case</span><img src="/assets/colon.png" class="greaterimg" alt="colon"><span
+           class="fontsize2">123456789</span>
+     </nav>
+   </div>
+    <hr>
+    <!-- first head end -->
+    
+    <!-- second nav start -->
+    <div class="container-fluid nav">
+        <ul class="navbar-nav nav_blue2">
+            <li class="nav-item dropdown s2">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Take Action
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item dropfont3" href="#">Add Notes</a></li>
+                    <li><a class="dropdown-item dropfont3" href="#">Assign Case</a></li>
+                    <li><a class="dropdown-item dropfont3" href="#">Add Schedule</a></li>
+                    <li><a class="dropdown-item dropfont3" href="#">Create Part Request</a></li>
+                    <li><a class="dropdown-item dropfont3" href="#">Add Part Request</a></li>
+                    <li><a class="dropdown-item dropfont3" href="#">Create Skill Request</a></li>
+                    <li><a class="dropdown-item dropfont3" href="#">Add Chargeable Event</a></li>
+                </ul>
+            </li>
+            <li class="nav-item active s3">
+                <a class="nav-link s2" href="#">Basic <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item s3">
+                <a class="nav-link s2" href="#">Case Book</a>
+            </li>
+            <li class="nav-item s3">
+                <a class="nav-link s2" href="#">Sub Service Classes</a>
+            </li>
+            <li class="nav-item s3">
+                <a class="nav-link s2" href="#">Parts Info</a>
+            </li>
+            <li class="nav-item s3">
+                <a class="nav-link s2" href="#">Service Jobs</a>
+            </li>
+            <li class="nav-item s3">
+                <a class="nav-link s2" href="#">Followers</a>
+            </li>
+            <li class="nav-item s3">
+                <a class="nav-link s2" href="#">Previous Cases</a>
+            </li>
+            <li class="nav-item s3">
+                <a class="nav-link s2" href="#">Change Logs</a>
+            </li>
+            <li class="nav-item s3">
+                <a class="nav-link s2" href="#">Summary</a>
+            </li>
+            <li class="nav-item s3">
+                <a class="nav-link s2" href="#">Customized CHP</a>
+            </li>
+        </ul>
+    </div>
+    <!-- second nav end -->
+
+    <div class="container-fluid mt-4">
+
+    <!-- first row start -->
+    <div class="row">
+        <!-- Upadate Type start-->
+        <div class="col-md-3 shadow2 w-25 mb-4" style="margin-left:10px;"> 
+           <p class=" rp" >Update Type :</p>
+           <select class="rp2 dropfont3">
+               <option value="" class="dropfont3" hidden >All</option>
+               <option value="" class="dropfont3"> Case Notes </option>
+               <option value="" class="dropfont3"> Accepted </option>
+               <option value="" class="dropfont3"> On Hold </option>
+               <option value="" class="dropfont3"> Resolve</option>
+               <option value="" class="dropfont3">Cancel Case</option>
+               <option value="" class="dropfont3">Assign Case</option>
+               <option value="" class="dropfont3">Action Plan</option>
+               <option value="" class="dropfont3">Schedule</option>
+               <option value="" class="dropfont3">Part Request</option>
+               <option value="" class="dropfont3">Skill Request</option>
+               <option value="" class="dropfont3">Add Chargeable Event</option>
+
+           </select>
+         </div>
+       <!-- Upadate Type  end-->
+
+         <!-- Week Wise start-->
+         <div class="col-md-2 shadow2  mb-4" style="margin-left:30px;"> 
+           <p class=" rp" >Week Wise :</p>
+           <select class="rp3 dropfont3">
+               <option value="" class="dropfont3" hidden ></option>
+               <option value="" class="dropfont3"> Day Wise </option>
+               <option value="" class="dropfont3"> Week Wise </option>
+               <option value="" class="dropfont3"> Month Wise </option>
+               <option value="" class="dropfont3"> Custom </option>
+           </select>
+         </div>
+       <!-- Week Wise  end-->
+
+        <!-- Upadate Type start-->
+        <div class="col-md-3 shadow2 w-25 mb-4" style="margin-left:30px;"> 
+          <img src="/assets/calendar.png" class="calenderimg rp mt-2" alt="calender">
+          <img src="/assets/lessthan.png" class="lessthan rp mt-2" style="margin-left:7px;" alt="lessthan">
+          <input type="text" name="" id="" class="rp4" placeholder="DD/MM/YYYY - DD/MM/YYYY">
+          <img src="/assets/greater-than.png" class="lessthan rp mt-2" style="margin-left:7px;" alt="greater-than">
+         </div>
+       <!-- Upadate Type  end-->
+
+         <!-- button start-->
+         <div class="mb-4 col-md-2" style="margin-left:70px;">
+           <a class="btn addfollowbtn mt-1" href="#" role="button">View All Attachments</a>
+       </div>
+       <!-- button  end-->
+    </div>
+    <!-- first row end -->
+
+    <!-- second row start 1-->
+    <div class="row">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="Case Notes">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="Case Notes">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer:</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-11 shadow2" style="margin-left:26px; height: 126px;"> 
+                <p class="rp" >Case Note :</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Owner Ship :</p>
+                <input class="rp2" type="text" placeholder="Customer">
+              </div>
+            </div>
+            <div class="row mt-3 mb-4 ">
+                <div class="col-md-3  marginn"> 
+                    <a class="btn addfollowbtn mt-1" href="#" role="button"><i class="fa fa-download" aria-hidden="true" style="margin-right: 10px;"></i>Download Attachments</a>
+                  </div>
+                </div>
+        </div>
+    </div>
+    <!-- second row end -->
+
+     <!-- third row start -->
+     <div class="row mt-4">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="On Hold">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="UserName">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer:</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-4 shadow2 marginn"> 
+                <p class="rp" >current Action :</p>
+                <input class="rp8" type="text" placeholder="Request For PO / Quote Approval">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Next Action :</p>
+                <input class="rp2" type="text" placeholder="Chase Customer">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Hold Until :</p>
+                <input class="rp2" type="text" placeholder="DD/MM/YYYY & HH:MM">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-11 shadow2" style="margin-left:26px; height: 126px;"> 
+                <p class="rp" >Notes :</p>
+                <input class="rp7" type="text" placeholder="">
+              </div>
+           </div>
+            <div class="row mt-3 mb-4 ">
+                <div class="col-md-3  marginn"> 
+                    <a class="btn addfollowbtn mt-1" href="#" role="button"><i class="fa fa-download" aria-hidden="true" style="margin-right: 10px;"></i>Download Attachments</a>
+                  </div>
+                </div>
+        </div>
+    </div>
+    <!-- third row end -->
+
+      <!-- FORTH row start -->
+      <div class="row">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="Cancel Case">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="UserName">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer:</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-11 shadow2" style="margin-left:26px; height: 126px;"> 
+                <p class="rp" >Reason For Case Cancellation :</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+           </div>
+            <div class="row mt-3 mb-4 ">
+                <div class="col-md-3  marginn"> 
+                    <a class="btn addfollowbtn mt-1" href="#" role="button"><i class="fa fa-download" aria-hidden="true" style="margin-right: 10px;"></i>Download Attachments</a>
+                  </div>
+                </div>
+        </div>
+    </div>
+    <!-- FORTH row end -->
+
+     <!-- fifth row start -->
+     <div class="row mt-4">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="Assign Case">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="UserName">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer:</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-4 shadow2 marginn"> 
+                <p class="rp" >Assigned To :</p>
+                <input class="rp2" type="text" placeholder="SSG Person">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Department :</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Person :</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-11 shadow2" style="margin-left:26px; height: 126px;"> 
+                <p class="rp" >Case Note :</p>
+                <input class="rp7" type="text" placeholder="">
+              </div>
+           </div>
+            <div class="row mt-3 mb-4 ">
+                <div class="col-md-3  marginn"> 
+                    <a class="btn addfollowbtn mt-1" href="#" role="button"><i class="fa fa-download" aria-hidden="true" style="margin-right: 10px;"></i>Download Attachments</a>
+                  </div>
+                </div>
+        </div>
+    </div>
+    <!-- fifth row end -->
+
+
+    <!-- LAST row start -->
+    <div class="row mt-4">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="Case Notes">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="UserName">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer:</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-4 shadow2 marginn"> 
+                <p class="rp" >Assigned To :</p>
+                <input class="rp2" type="text" placeholder="Supplier">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Supplier :</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-11 shadow2" style="margin-left:26px; height: 126px;"> 
+                <p class="rp" > Notes :</p>
+                <input class="rp7" type="text" placeholder="">
+              </div>
+           </div>
+            <div class="row mt-3 mb-4 ">
+                <div class="col-md-3  marginn"> 
+                    <a class="btn addfollowbtn mt-1" href="#" role="button"><i class="fa fa-download" aria-hidden="true" style="margin-right: 10px;"></i>Download Attachments</a>
+                  </div>
+                </div>
+        </div>
+    </div>
+    <!-- LAST row end -->
+
+   <!-- seventh row start -->
+   <div class="row mt-4">
+    <div class="col-md-12 mt-2 blackborder" >
+       <div class="row mt-3 mb-4 ">
+        <div class="col-md-3 shadow2 marginn"> 
+            <p class="rp" >Update Type :</p>
+            <input class="rp2" type="text" placeholder="Add Action Plan">
+          </div>
+          <div class="col-md-3 shadow2 marginn"> 
+            <p class="rp" >Updated By :</p>
+            <input class="rp2" type="text" placeholder="Case Notes">
+          </div>
+          <div class="col-md-3 shadow2 marginn"> 
+            <p class="rp" >Update Date Time :</p>
+            <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+          </div>
+          <div class="col-md-2 shadow2 marginn"> 
+            <p class="rp" >Visible to Customer:</p>
+            <input class="rp6" type="text" placeholder="to">
+          </div>
+       </div>
+       <div class="row mt-3 mb-4 ">
+        <div class="col-md-5 shadow2 marginn"> 
+            <p class="rp" >Fault Description :</p>
+            <input class="rp2" type="text" placeholder="SSG Person">
+          </div>
+          <div class="col-md-5 shadow2 marginn"> 
+            <p class="rp" >Recommended Solution :</p>
+            <input class="rp2" type="text" placeholder="">
+          </div>
+       </div>
+       <div class="row mt-3 mb-4 ">
+        <div class="col-md-3 shadow2 marginn"> 
+            <p class="rp" >Estimated Work Window Time :</p>
+            <input class="rp10" type="text" placeholder="">
+          </div>
+          <div class="col-md-3 shadow2 marginn"> 
+            <p class="rp" >Downtime Requirment :</p>
+            <input class="rp9 " type="text" placeholder="">
+          </div>
+          <div class="col-md-4 shadow2 marginn"> 
+            <p class="rp" >Special Toolkit Requirment :</p>
+            <input class="rp2 " type="text" placeholder="">
+          </div>
+       </div>
+       <div class="row mt-3 mb-4 ">
+        <div class="col-md-11 shadow2" style="margin-left:26px; height: 126px;"> 
+            <p class="rp" >Notes :</p>
+            <input class="rp7" type="text" placeholder="">
+          </div>
+       </div>
+        <div class="row mt-3 mb-4 ">
+            <div class="col-md-3  marginn"> 
+                <a class="btn addfollowbtn mt-1" href="#" role="button"><i class="fa fa-download" aria-hidden="true" style="margin-right: 10px;"></i>Download Attachments</a>
+              </div>
+            </div>
+    </div>
+</div>
+   <!-- seventh row end -->
+
+    <!-- eight row start -->
+    <div class="row mt-4">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="Add Chargeable Event">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="UserName">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer:</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-6 shadow2 marginn"> 
+                <p class="rp" >Reason:</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-5 shadow2 marginn"> 
+                <p class="rp" >PO Or IPO Number For CE :</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+              <div class="col-md-5 shadow2 marginn"> 
+                <p class="rp" >Type Of Requirment :</p>
+                <input class="rp2 " type="text" placeholder="">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-11 shadow2" style="margin-left:26px; height: 126px;"> 
+                <p class="rp" >Notes :</p>
+                <input class="rp7" type="text" placeholder="">
+              </div>
+           </div>
+            <div class="row mt-3 mb-4 ">
+                <div class="col-md-3  marginn"> 
+                    <a class="btn addfollowbtn mt-1" href="#" role="button"><i class="fa fa-download" aria-hidden="true" style="margin-right: 10px;"></i>Download Attachments</a>
+                  </div>
+                </div>
+        </div>
+    </div>
+       <!-- eight row end -->
+
+          <!-- nine row start -->
+    <div class="row mt-4">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="Create Part Request">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="Case Notes">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer:</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-6 shadow2 marginn"> 
+                <p class="rp" >Part Number :</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+              <div class="col-md-5 shadow2 marginn"> 
+                <p class="rp" >Part Description :</p>
+                <input class="rp2 " type="text" placeholder="">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-4 shadow2 marginn"> 
+                <p class="rp" >Alternative Part Number :</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Quantity :</p>
+                <input class="rp3" type="text" placeholder="">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Is Available :</p>
+                <input class="rp5" type="text" placeholder="">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-11 shadow2" style="margin-left:26px; height: 126px;"> 
+                <p class="rp" >Notes :</p>
+                <input class="rp7" type="text" placeholder="">
+              </div>
+           </div>
+            <div class="row mt-3 mb-4 ">
+                <div class="col-md-3  marginn"> 
+                    <a class="btn addfollowbtn mt-1" href="#" role="button"><i class="fa fa-download" aria-hidden="true" style="margin-right: 10px;"></i>Download Attachments</a>
+                  </div>
+                </div>
+        </div>
+    </div>
+    
+       <!-- 10 row start -->
+    <div class="row mt-4">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="Case Accepted">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="Case Notes">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer:</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-6 shadow2 marginn"> 
+                <p class="rp" >Case Accepted By:</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+           </div>
+        </div>
+    </div>
+       <!-- 10 row end -->
+
+       <!-- 11 row start -->
+    <div class="row mt-4">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="Case Resolved">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="Case Notes">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer :</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-6 shadow2 marginn"> 
+                <p class="rp" >Action Taken By:</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+           </div>
+        </div>
+    </div>
+       <!-- 11 row end -->
+   
+         <!-- 12 row start -->
+    <div class="row mt-4 mb-5">
+        <div class="col-md-12 mt-2 blackborder" >
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Type :</p>
+                <input class="rp2" type="text" placeholder="Taken Off Hold">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Updated By :</p>
+                <input class="rp2" type="text" placeholder="Case Notes">
+              </div>
+              <div class="col-md-3 shadow2 marginn"> 
+                <p class="rp" >Update Date Time :</p>
+                <input class="rp5" type="text" placeholder="DD/MM/YYYY HH:MM">
+              </div>
+              <div class="col-md-2 shadow2 marginn"> 
+                <p class="rp" >Visible to Customer :</p>
+                <input class="rp6" type="text" placeholder="to">
+              </div>
+           </div>
+           <div class="row mt-3 mb-4 ">
+            <div class="col-md-6 shadow2 marginn"> 
+                <p class="rp" >Case Taken Off Hold By :</p>
+                <input class="rp2" type="text" placeholder="">
+              </div>
+           </div>
+        </div>
+    </div>
+       <!-- 12 row end -->
+   
+    </div>
+</div>

@@ -1,0 +1,77 @@
+.shadow2{
+    font-weight: 600;
+    font-size: 14px;
+    color: #012343;
+    border: 1px solid #D0D0D0;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+}
+
+.rp{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1B3764;
+    display: inline-block;
+    font-size: 14px;
+}
+.rp2{
+    border: none;
+    outline: none;
+    width: 170px;
+    margin-left:10px;
+}
+.rp7{
+    border: none;
+    outline: none;
+    width:50rem;
+    margin-left:10px;
+}
+.rp8{
+    border: none;
+    outline: none;
+    width:278PX;
+    margin-left:4px;
+}
+.rp9{
+    border: none;
+    outline: none;
+    width:75PX;
+    margin-left:8px;
+}
+.rp10{
+    border: none;
+    outline: none;
+    width:71PX;
+    margin-left:3px;
+}
+.rp3{
+    border: none;
+    outline: none;
+    width: 96px;
+    margin-left: 2px;
+}
+.rp4{
+    border: none;
+    outline: none;
+    width: 205px;
+    margin-left:10px;
+}
+.rp5{
+    border: none;
+    outline: none;
+    width: 142px;
+    margin-left:6px;
+}
+.rp6{
+    border: none;
+    outline: none;
+    width: 19px;
+    margin-left:4px;
+}
+.tabcol{
+    font-size: 13px;
+    color: #1B3764;
+}
+.lessthan{
+    width:15px;
+}

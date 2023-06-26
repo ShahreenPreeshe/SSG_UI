@@ -1,0 +1,333 @@
+<div class="container-fluid border">
+    <!-- <div class="row flex-nowrap"> -->
+    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light shadow border" hidden>
+       <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+             <li class="nav-item">
+                <a href="#" class="nav-link align-middle px-0">
+                <i class="fa fa-home icon" aria-hidden="true"></i> <span
+                   class="ms-1 d-none d-sm-inline fontsize">Home</span>
+                </a>
+             </li>
+             <li class="">
+                <!-- <i class="fa-solid fa-comments-question-check"></i>
+                   <i class="fa fa-user-plus icon" aria-hidden="true"></i> -->
+                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle hd">
+                <i class="fa fa-comments fontsize" aria-hidden="true"></i><span
+                   class="ms-1 d-none d-sm-inline ">Helpdesk</span></a>
+                <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                   <!-- <i class="fa-solid fa-greater-than fa-rotate-90 fa-2xl"></i> -->
+                   <li class="w-100 ">
+                      <a href="#" class="nav-link px-0"><i class="fa fa-plus-square icon"
+                         aria-hidden="true"></i><span class="d-none d-sm-inline fontsize">Create
+                      case</span></a>
+                   </li>
+                   <li class="hd">
+                      <a href="#" class="nav-link px-0"><i class="fa fa-search-plus icon"
+                         aria-hidden="true"></i> <span class="d-none d-sm-inline fontsize">Search
+                      Case</span></a>
+                   </li>
+                   <li>
+                      <a href="#" class="nav-link px-0"><i class="fa fa-calendar-minus-o icon"
+                         aria-hidden="true"></i><span class="d-none d-sm-inline fontsize">Case
+                      Status</span></a>
+                   </li>
+                   <li>
+                      <a href="#" class="nav-link px-0"><i class="fa fa-tachometer icon"
+                         aria-hidden="true"></i><span
+                         class="d-none d-sm-inline fontsize">Dashboard</span></a>
+                   </li>
+                </ul>
+             </li>
+            </ul>
+          <hr>
+       </div>
+    </div>
+    <!-- right side -->
+    <div class="mt-3">
+       <nav class="helpnav"><span class="fontsize3">Helpdesk</span><img src="/assets/greater-than.png" class="greaterimg" alt="greater-than"><span class="fontsize2">Case Creation</span>
+       </nav>
+       <hr>
+      
+       <!-- second nav end -->
+       <div class="container-fluid mt-3 ">
+          <!--first row grid start -->
+          <div class="row">
+             <div class="col-md-5 shade pt-0 align-items-start justify-content-start p-3 firstbox">
+                <h6 class="fontsize4 mb-4 py-2">Serial Number</h6>
+                <input class="input py-2 mb-5" type="text" placeholder="Enter Serial Number">
+                <!-- <button  class="button1 mt-4 mb-3">Search</button> -->
+             </div>
+             <div class="col-md-1 ">
+             </div>
+             <div class="col-md-5 shade pt-0 align-items-start justify-content-start p-3 firstbox">
+                <h6 class="fontsize4 mb-4 py-2">Incident Detail</h6>
+                <div class="row">
+                   <div class="col">
+                      <p class="radiobtn">Case Type</p>
+                      <select class="selectdrop dropfont tt">
+                        <option value="" class="dropfont" hidden>Case Type</option>
+                        <option value="" class="dropfont">Break Fix</option>
+                        <option value="" class="dropfont">IPO</option>
+                        <option value="" class="dropfont">GPO</option>
+                        <option value="" class="dropfont">TPO</option>
+                        <option value="" class="dropfont">EPO</option>
+                    </select>
+                </div>
+                   <div class="col">
+                      <p class="radiobtn">Service Type</p>
+                      <select class="selectdrop dropfont tt">
+                        <option value="" class="dropfont" hidden>Service Type</option>
+                        <option value="" class="dropfont">MVS</option>
+                        <option value="" class="dropfont">Warranty</option>
+                        <option value="" class="dropfont">Professional</option>
+                    </select>
+                   </div>
+                </div>
+                <!-- check radio start -->
+                <p class="radiobtn mt-3">Severity Level</p>
+                <div class="form-check form-check-inline radiobtn">
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                      value="option1">
+                   <label class="form-check-label" for="inlineRadio1">P1</label>
+                </div>
+                <div class="form-check form-check-inline radiobtn">
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                      value="option2">
+                   <label class="form-check-label" for="inlineRadio2">P2</label>
+                </div>
+                <div class="form-check form-check-inline radiobtn">
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                      value="option3">
+                   <label class="form-check-label" for="inlineRadio3">P3</label>
+                </div>
+                <div class="form-check form-check-inline radiobtn">
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                      value="option3">
+                   <label class="form-check-label" for="inlineRadio3">P4</label>
+                </div>
+                <!-- check radio end -->
+             </div>
+          </div>
+          <!--first row grid end -->
+          <!-- second row grid start -->
+          <div class="row mt-4">
+             <div class="col-md-5 shade pt-0 align-items-start justify-content-start p-3 firstbox">
+                <h6 class="fontsize4 mb-3 py-2">Equipment Details</h6>
+                <p class="radiobtn">Make</p>
+                <select class="selectdrop dropfont tt">
+                  <option value="" class="dropfont" hidden>Select Make</option>
+              </select>
+                <p class="radiobtn mt-3">Model</p>
+                <select class="selectdrop dropfont tt">
+                  <option value="" class="dropfont" hidden>Select Model</option>
+              </select>
+                <p class="radiobtn mt-3">Equipment Type</p>
+                <select class="selectdrop dropfont tt">
+                  <option value="" class="dropfont" hidden>Select Equipment Type</option>
+              </select>
+                <p class="radiobtn mt-3">Equipment Category</p>
+                <select class="selectdrop dropfont tt">
+                  <option value="" class="dropfont" hidden>Select Equipment Category</option>
+              </select>
+             </div>
+             <div class="col-md-1 ">
+             </div>
+             <div class="col-md-5 shade pt-0 align-items-start justify-content-start p-3 firstbox">
+                <h6 class="fontsize4 mb-3 py-2">PO Details</h6>
+                <div class="row">
+                   <div class="col">
+                      <p class="radiobtn">PO Number</p>
+                      <input class="input py-2  mb-3 " type="text" placeholder="PO Number">
+                      <!-- <img src="/assets/calendar.png" class="calenderimg rp " alt="calender"> -->
+                      <p class="radiobtn">KAM Name</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="KAM Name">
+                      <p class="radiobtn">SLA</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="SLA">
+                      <p class="radiobtn">Start Date</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="Start Date">
+                   </div>
+                   <div class="col">
+                      <p class="radiobtn">PO Load Date</p>
+                      <input class="input py-2  mb-3" type="text" placeholder="PO Load Date">
+                      <p class="radiobtn">Quote Reference Number</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="Quote Reference Number">
+                      <p class="radiobtn">Support Type</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="Support Type">
+                      <p class="radiobtn">End Date</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="End Date">
+                   </div>
+                </div>
+                <!-- <button  class="button1 mt-4 mb-3">Search</button> -->
+             </div>
+          </div>
+          <!-- second row grid end -->
+          <!-- Third row grid start -->
+          <div class="row mt-4">
+             <div class="col-md-5 shade pt-0 align-items-start justify-content-start p-3 firstbox">
+                <div class="row">
+                   <h6 class="fontsize4 mb-3 py-2">Customer Details</h6>
+                   <div class="col-7">
+                      <p class="radiobtn">Customer Reference Number</p>
+                      <input class="input py-2  mb-3" type="text" placeholder="Customer Reference Number">
+                      <p class="radiobtn">Primary Customer</p>
+                      <input class="input py-2 mb-3" type="text" placeholder=" Primary Customer">
+                      <p class="radiobtn">End Customer</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="End Customer">
+                      <p class="radiobtn">City</p>
+                      <input class="input py-2 mb-3" type="text" placeholder=" City">
+                      <p class="radiobtn">State/Province</p>
+                      <input class="input py-2 mb-3" type="text" placeholder=" State/Province">
+                      <p class="radiobtn">Territory</p>
+                      <input class="input py-2 mb-3" type="text" placeholder=" Territory">
+                      <p class="radiobtn">Nearest FE Location</p>
+                      <input class="input py-2 mb-3" type="text" placeholder=" Nearest FE Location">
+                      <!-- <button  class="button1 mt-4 mb-3">Search</button> -->
+                   </div>
+                   <div class="col-5">
+                      <p class="radiobtn">SPC Type</p>
+                      <select class="selectdrop dropfont tt mt-3">
+                        <option value="" class="dropfont" hidden>Select Type</option>
+                        <option value="" class="dropfont">Diamond</option>
+                        <option value="" class="dropfont">Golden</option>
+                        <option value="" class="dropfont">Silver</option>
+                        <option value="" class="dropfont">Strategic</option>
+                        <option value="" class="dropfont">Bronze</option>
+                    </select>
+                      <p class="radiobtn mt-3">Secondary Customer</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="Secondary Customer">
+                      <p class="radiobtn">Address</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="Address">
+                      <p class="radiobtn">Post Code</p>
+                      <input class="input py-2 mb-3" type="text" placeholder=" Post Code">
+                      <p class="radiobtn">Country</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="Country">
+                      <p class="radiobtn">Region</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="Region">
+                      <p class="radiobtn">Nearest Warehouse</p>
+                      <input class="input py-2 mb-3" type="text" placeholder="Nearest Warehouse">
+                      <!-- <button  class="button1 mt-4 mb-3">Search</button> -->
+                   </div>
+                </div>
+             </div>
+             <div class="col-md-1 ">
+             </div>
+             <div class="col-md-5">
+                <div class="row">
+                   <!-- site details start -->
+                   <div class="col-md-12 mb-4 shade pt-0 align-items-start justify-content-start p-3 firstbox">
+                      <h6 class="fontsize4 mb-3 py-2">Site Details</h6>
+                      <div class="row">
+                         <div class="col">
+                            <p class="radiobtn">Onsite Contact Name</p>
+                            <input class="input py-2  mb-3" type="text" placeholder="Onsite Contact Name">
+                            <p class="radiobtn">Onsite Contact Number</p>
+                            <input class="input py-2 mb-3" type="text" placeholder="Onsite Contact Number">
+                            <p class="radiobtn">Onsite Contact Email</p>
+                            <input class="input py-2 mb-3" type="text" placeholder="Onsite Contact Email">
+                         </div>
+                         <div class="col">
+                            <p class="radiobtn">Site Admin Name</p>
+                            <input class="input py-2 mb-3" type="text" placeholder="Site Admin Name">
+                            <p class="radiobtn">Site Admin Number</p>
+                            <input class="input py-2 mb-3" type="text" placeholder="Site Admin Number">
+                            <p class="radiobtn">Site Admin Email</p>
+                            <input class="input py-2 mb-3" type="text" placeholder="Site Admin Email">
+                         </div>
+                      </div>
+                      <!-- <button  class="button1 mt-4 mb-3">Search</button> -->
+                   </div>
+                   <!-- site detail end -->
+                   <!-- problem detail start -->
+                   <div class="col-md-12 shade mt-4 pt-0 align-items-start justify-content-start p-3 firstbox">
+                      <h6 class="fontsize4 mb-3 py-2">Problem Details</h6>
+                      <p class="radiobtn">Problem</p>
+                      <input class="input py-2  mb-3" type="text" placeholder="Enter the Problem">
+                      <p class="radiobtn">Case Notes</p>
+                      <textarea class="form-control py-2 mb-3 shadow" id="exampleFormControlTextarea1" rows="3" placeholder="Add Case Notes"></textarea>
+                      <!-- <button  class="button1 mt-4 mb-3">Search</button> -->
+                   </div>
+                   <!-- problem detail end -->
+                </div>
+             </div>
+             <div class="col-md-1 ">
+             </div>
+          </div>
+          <!-- Third row grid end -->
+
+          <!-- forth row grid start -->
+          <div class="row mt-4 mb-5">
+            <div class="col-md-5 shade pt-0 align-items-start justify-content-start p-3 firstbox">
+               <h6 class="fontsize4 mb-3 py-2">ASP (Accredited Service Provider) Details</h6>
+               <div class="row">
+                  <div class="col-md-7">
+                     <p class="radiobtn">Assets back to back Status</p>
+                     <div class="form-check form-check-inline radiobtn">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                           value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                     </div>
+                     <div class="form-check form-check-inline radiobtn">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                           value="option2">
+                        <label class="form-check-label" for="inlineRadio2">No</label>
+                     </div>
+                     <p class="radiobtn mt-4">Penalty Applicable or Not</p>
+                     <div class="form-check form-check-inline radiobtn">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                           value="option1">
+                        <label class="form-check-label lab" for="inlineRadio1">Applicable</label>
+                     </div>
+                     <div class="form-check form-check-inline radiobtn">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                           value="option2">
+                        <label class="form-check-label lab" for="inlineRadio2">Not Applicable</label>
+                     </div>
+                  </div>
+                  <div class="col-md-5">
+                     <p class="radiobtn">ASP Name</p>
+                     <input class="input py-2  mb-3" type="text" placeholder="ASP Name">
+                     <p class="radiobtn">Support Type for ASP</p>
+                     <input class="input py-2  mb-3" type="text" placeholder=" Support Type for ASP">
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-1 ">
+            </div>
+            <div class="col-md-5 shade pt-0 align-items-start justify-content-start p-3 firstbox">
+               <h6 class="fontsize4 mb-3 py-2">Upload Documents</h6>
+               <div class="row mt-5">
+                 <div class="col-md-3"></div>
+                 <div class="col-md-5 shadow2" style="margin-left:10px;display: flex;">
+                       <img src="/assets/upload.png" style="width:55px;padding:6px;" alt="upload">
+                       <p style="padding-top:14px;font-size:16px;">Upload File</p>
+                   </div>
+                 <div class="col-md-1"></div>
+               </div>
+               <div class="row mt-3">
+                <div class="col-md-4"></div>
+                <div class="col-md-5">
+                    <a class="btn backbtn4" style="margin-left:20px;" href="#" role="button">Upload</a>
+                  </div>
+                <div class="col-md-1"></div>
+              </div>
+            </div>
+            <div class="col-md-1 ">
+            </div>
+         </div>
+          <!-- forth row grid end -->
+
+          <div class="row mt-4 mb-5">
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <a class="btn backbtn3" style="margin-left:95px;padding-right: 25px;padding-left:25px;" href="#" role="button">Create</a>
+            </div>
+            <div class="col-md-4"></div>
+            
+
+          </div>
+          
+       </div>
+    </div>
+    </div>
+    <!-- </div> -->

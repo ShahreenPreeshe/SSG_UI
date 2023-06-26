@@ -1,0 +1,18 @@
+.dropfont{
+    font-size: 13px;
+    color: #1B3764;
+    font-weight: 600;
+ }
+
+.helpnav{
+    margin-left: 50px;
+ }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*,html{
+    font-family: 'Poppins';
+}
+ 
+p {
+    display: inline-block;
+  }
