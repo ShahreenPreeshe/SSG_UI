@@ -1,0 +1,39 @@
+.lock{
+    width:18px;
+    padding-right: 5px;
+}
+/* .tring{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+      
+} */
+
+.tri{
+    z-index: -1;
+    right: 0; 
+}
+.btnlog{
+    background-color: #1B3764;
+    color: #fff;
+    font-weight: 600;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.btnlog:hover{
+    background-color: #F87C2A;
+    color: #fff;
+    font-weight: 600;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.fontf{
+    color: #1B3764;
+    font-size: 15px;
+    font-weight: 600;
+}
+::placeholder{
+    font-size: 12px;
+    padding: 10px;
+}

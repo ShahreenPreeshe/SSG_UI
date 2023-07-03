@@ -20,10 +20,21 @@ import { CreatePartRequestComponent } from './helpdesk/create-part-request/creat
 import { CreateSkillRequestComponent } from './helpdesk/create-skill-request/create-skill-request.component';
 import { ChargeableEventComponent } from './helpdesk/chargeable-event/chargeable-event.component';
 import { CaseCreationComponent } from './helpdesk/case-creation/case-creation.component';
+import { LoginComponent } from './helpdesk/login/login.component';
+import { PagenotfoundComponent } from './helpdesk/pagenotfound/pagenotfound.component';
+import { CreateTmComponent } from './helpdesk/create-tm/create-tm.component';
 
 const routes: Routes = [
   {
     path:"",
+    component:LoginComponent
+  },
+  {
+    path:"createT&M",
+    component:CreateTmComponent
+  },
+  {
+    path:"sidebar",
     component:SidebarComponent
   },
   {
@@ -102,6 +113,11 @@ const routes: Routes = [
     path:"case_creation",
     component:CaseCreationComponent
   },
+  {
+    path:"**",
+    component:PagenotfoundComponent
+  },
+  // 
   
 ];
 
