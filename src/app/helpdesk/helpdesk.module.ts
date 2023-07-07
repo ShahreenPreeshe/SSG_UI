@@ -25,6 +25,10 @@ import { CaseCreationComponent } from './case-creation/case-creation.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { CreateTmComponent } from './create-tm/create-tm.component';
+import { DashBoardComponent } from './dash-board/dash-board.component';
+import { CaseStatusComponent } from './case-status/case-status.component';
+import { HeaderComponent } from './header/header.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +55,10 @@ import { CreateTmComponent } from './create-tm/create-tm.component';
     LoginComponent,
     PagenotfoundComponent,
     CreateTmComponent,
+    DashBoardComponent,
+    CaseStatusComponent,
+    HeaderComponent,
+    ForgotPasswordComponent,
     
   ],
   imports: [

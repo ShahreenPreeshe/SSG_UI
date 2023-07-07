@@ -23,6 +23,9 @@ import { CaseCreationComponent } from './helpdesk/case-creation/case-creation.co
 import { LoginComponent } from './helpdesk/login/login.component';
 import { PagenotfoundComponent } from './helpdesk/pagenotfound/pagenotfound.component';
 import { CreateTmComponent } from './helpdesk/create-tm/create-tm.component';
+import { DashBoardComponent } from './helpdesk/dash-board/dash-board.component';
+import { CaseStatusComponent } from './helpdesk/case-status/case-status.component';
+import { ForgotPasswordComponent } from './helpdesk/forgot-password/forgot-password.component';
 
 const routes: Routes = [
   {
@@ -106,12 +109,24 @@ const routes: Routes = [
     component:CreateSkillRequestComponent
   },
   {
-    path:"Chargeable_event",
+    path:"chargeable_event",
     component:ChargeableEventComponent
   },
   {
     path:"case_creation",
     component:CaseCreationComponent
+  },
+  {
+    path:"helpdesk",
+    component:DashBoardComponent
+  },
+  {
+    path:"case_status",
+    component:CaseStatusComponent
+  },
+  {
+    path:"forgot_password",
+    component:ForgotPasswordComponent
   },
   {
     path:"**",

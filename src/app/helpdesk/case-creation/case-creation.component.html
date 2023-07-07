@@ -51,8 +51,10 @@
       </nav>
       <hr>
 
-      <!-- second nav end -->
+      
       <div class="container-fluid mt-3 ">
+         
+         <form action="">
          <!--first row grid start -->
          <div class="row">
             <div class="col-md-5 shade pt-0 align-items-start justify-content-start p-3 firstbox">
@@ -117,21 +119,25 @@
             <div class="col-md-5 shade pt-0 align-items-start justify-content-start p-3 firstbox">
                <h6 class="fontsize4 mb-3 py-2">Equipment Details</h6>
                <p class="radiobtn">Make</p>
-               <select class="selectdrop dropfont tt">
+               <!-- <select class="selectdrop dropfont tt">
                   <option value="" class="dropfont" hidden>Select Make</option>
-               </select>
+               </select> -->
+               <input class="input py-2  mb-3" type="text" placeholder="Make">
                <p class="radiobtn mt-3">Model</p>
-               <select class="selectdrop dropfont tt">
+               <!-- <select class="selectdrop dropfont tt">
                   <option value="" class="dropfont" hidden>Select Model</option>
-               </select>
+               </select> -->
+               <input class="input py-2  mb-3" type="text" placeholder="Model">
                <p class="radiobtn mt-3">Equipment Type</p>
-               <select class="selectdrop dropfont tt">
+               <!-- <select class="selectdrop dropfont tt">
                   <option value="" class="dropfont" hidden>Select Equipment Type</option>
-               </select>
+               </select> -->
+               <input class="input py-2  mb-3" type="text" placeholder="Equipment Type">
                <p class="radiobtn mt-3">Equipment Category</p>
-               <select class="selectdrop dropfont tt">
+               <!-- <select class="selectdrop dropfont tt">
                   <option value="" class="dropfont" hidden>Select Equipment Category</option>
-               </select>
+               </select> -->
+               <input class="input py-2  mb-3" type="text" placeholder="Equipment Category">
             </div>
             <div class="col-md-1 ">
             </div>
@@ -302,8 +308,9 @@
                <div class="row mt-5">
                   <div class="col-md-3"></div>
                   <div class="col-md-5 shadow2" style="margin-left:10px;display: flex;">
-                     <img src="/assets/upload.png" style="width:55px;padding:6px;" alt="upload">
-                     <p style="padding-top:14px;font-size:16px;">Upload File</p>
+                     <img src="/assets/upload.png" style="width:55px;padding:6px;"alt="upload">
+                     <input class="uplo" type="file">
+                     <!-- <p style="padding-top:14px; font-size:16px; color:#1b3764;">Upload File</p> -->
                   </div>
                   <div class="col-md-1"></div>
                </div>
@@ -330,6 +337,7 @@
 
 
          </div>
+         </form>
 
       </div>
    </div>
