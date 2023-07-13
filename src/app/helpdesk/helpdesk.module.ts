@@ -22,7 +22,6 @@ import { CreatePartRequestComponent } from './create-part-request/create-part-re
 import { CreateSkillRequestComponent } from './create-skill-request/create-skill-request.component';
 import { ChargeableEventComponent } from './chargeable-event/chargeable-event.component';
 import { CaseCreationComponent } from './case-creation/case-creation.component';
-import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { CreateTmComponent } from './create-tm/create-tm.component';
 import { DashBoardComponent } from './dash-board/dash-board.component';
@@ -52,7 +51,6 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     CreateSkillRequestComponent,
     ChargeableEventComponent,
     CaseCreationComponent,
-    LoginComponent,
     PagenotfoundComponent,
     CreateTmComponent,
     DashBoardComponent,
